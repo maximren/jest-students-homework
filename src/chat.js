@@ -24,7 +24,7 @@ class Chat {
   }
 
   removeUser(user) {
-    this.users.filter(inChatUser => {
+    this.users = this.users.filter(inChatUser => {
       if (isEqual(inChatUser, user)) {
         return false;
       }

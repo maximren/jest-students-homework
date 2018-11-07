@@ -32,7 +32,7 @@ class User {
 
   leaveChat() {
     this.chat.removeUser(this);
-    this.chat = null;
+    this.chat === null;
   }
 }
 
